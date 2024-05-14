@@ -1,0 +1,29 @@
+.navbar{
+    text-decoration: none;
+    color: #000;
+    cursor: default;
+    :hover {
+        color: #000;
+    }
+}
+
+.text_sp {
+    text-decoration: none;
+    color: var(--primary-color);
+}
+
+.banner {
+    background-color: var(--primary-color);
+}
+
+.form {
+    position: relative;
+}
+
+.form_login {
+    position: absolute;
+    color: #fff;
+    top: 0;
+    right: 0;
+}
+
