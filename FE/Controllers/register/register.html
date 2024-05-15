@@ -8,14 +8,14 @@
     <!-- CSS -->
     <link rel="stylesheet" href="/FE/assets/base.css">
     <link rel="stylesheet" href="/FE/assets/common.css">
-    <title>Đăng nhập tài khoản</title>
+    <title>Đăng kí tài khoản</title>
 </head>
 <body>
     <div class="container">
         <nav class="navbar">
             <a class="navbar d-flex" href="/FE/home.html">
                 <img src="/img/logo_Login.svg" alt="" width="120" height="60" class="d-inline-block align-text-top">
-                <h3 class="title">Đăng nhập</h3>
+                <h3 class="title">Đăng kí</h3>
             </a>
             </nav>
     </div>
@@ -23,17 +23,19 @@
         <div class="container-sm d-flex form">
             <img src="/img/img_Login.png" alt=""class="rounded mx-auto d-block">
             <form action="" class="form_login">
-                <div class="title text-dark fs-5 py-2">Đăng nhập</div>
+                <div class="title text-dark fs-5 py-2">Đăng kí</div>
                     <div>
                         <input type="text" name="email" id="" placeholder="Email" class="d-block my-2 p-1 w-100">
+                        <input type="text" name="Họ và tên" id="" placeholder="Họ và tên" class="d-block mt-4 p-1 w-100">
                         <input type="text" name="password" placeholder="Password" id="" class="my-4 p-1 w-100">
-                        <button type="submit" class="d-block mt-2 w-100 btn-login py-2">ĐĂNG NHẬP</button>
+                        <button type="submit" class="d-block mt-2 w-100 btn-login py-2">ĐĂNG KÍ</button>
                     </div>
                 <div>
-                    <a href="" class="text-decoration-none forget-pass">Quên mật khẩu</a>
-                </div>
+                    <div class="text-dark policy my-2">
+                        Bằng việc đăng kí, bạn đã đồng ý với Shopee về <a class="disc" href="">Điều khoản dịch vụ</a> & <a class="disc" href="">Chính sách bảo mật</a> 
+                    </div>
                 <div>
-                    <p class="text-secondary pt-2 d-flex justify-content-center">Bạn mới biết đến Shoppe? <a class="text-decoration-none disc" href="/FE/Controllers/register/register.html">Đăng ký</a></p>
+                    <p class="text-secondary pt-2 d-flex justify-content-center">Bạn đã có tài khoản? <a class="text-decoration-none disc" href="/FE/Controllers/login/login.html">Đăng nhập</a></p>
                 </div>
             </form>
         </div>

@@ -1,7 +1,7 @@
 /* Header nav */
 .nav-link {
     color: #fff;
-    font-size: 11px;
+    font-size: 12px;
     padding: 0;
     margin: 0;
 }
@@ -49,4 +49,87 @@
 .nav_icon {
     color: #fff;
     padding: 0 4px;
+}
+
+.notify {
+    position: relative;
+}
+
+.popup {
+    height: 300px;
+    width: 380px;
+    position: absolute;
+    top: 26px;
+    right: 0;
+    border-radius: 2px;
+    display: none;
+    z-index: 10;
+}
+
+.popup::after,
+.cart-popup::after {
+    content: "";
+    display: block;
+    position: absolute;
+    right: 0;
+    top: -13px;
+    width: 90px;
+    height: 20px;
+}
+
+.notify:hover .popup{
+    display: block;
+}
+
+.inf {
+    text-align: center;
+}
+
+.header_logo-img {
+    width: 160px;
+    height: 60px;
+    padding-bottom: 10px;
+}
+
+.btn-search {
+    border: none;
+    padding: 0 10px;
+}
+
+.header-input {
+    position: relative;
+}
+
+.btn-search {
+    position: absolute;
+    top: 5px;
+    right: 4px;
+    background-color: var(--primary-color);
+    border-radius: 2px;
+    padding: 2px 16px;
+}
+
+.btn-search > i {
+    color: #fff;
+
+}
+
+.header-cart {
+    font-size: 20px;
+    position: relative;
+    line-height: 60px;
+}
+
+.cart-popup {
+    height: 260px;
+    width: 400px;
+    position: absolute;
+    right: 78px;
+    top: 52px;
+    display: none;
+    z-index: 10;
+}
+
+.header-cart:hover > .cart-popup {
+    display: block;
 }
