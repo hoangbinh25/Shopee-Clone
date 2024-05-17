@@ -33,6 +33,7 @@
 
 .nav--has-qr:hover .nav_qr {
     display: block;
+    z-index: 10;
 }
 
 .nav_qr img {
@@ -132,4 +133,19 @@
 
 .header-cart:hover > .cart-popup {
     display: block;
+    cursor: pointer;
+}
+
+.title-product {
+    font-size: 14px;
+}
+
+.bg-product:hover {
+    border-color: rgba(0, 0, 0, 0.05);
+    box-shadow: 0 0 0.8125rem 0 rgba(0, 0, 0, 0.05);
+}
+
+.suggest-products {
+    font-size: 15px;
+    color: var(--primary-color);
 }
