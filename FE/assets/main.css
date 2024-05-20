@@ -149,3 +149,60 @@
     font-size: 15px;
     color: var(--primary-color);
 }
+
+.image-product {
+    padding-top: 100%;
+    background-size: contain;
+}
+
+.block-product {
+    position: relative;
+}
+
+.sale {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 40px;
+    text-align: center;
+    background: #ffe97a;
+    color: var(--primary-color);
+    border-bottom-left-radius: 2px;
+}
+
+.favorite {
+    position: absolute;
+    top: 10px;
+    left: 0;
+    background: var(--primary-color);
+    color: #fff;
+    border-radius: 2px;
+    padding: 0 5px;
+}
+
+.favorite > span {
+    font-size: 11px;
+}
+
+.sale > span {
+    font-size: 12px;
+}
+
+.block-product:hover {
+    border: 1px solid var(--primary-color)!important;
+    
+}
+
+.name-product {
+    font-weight: 300;
+}
+
+.price-product {
+    color: var(--primary-color);
+    font-size: 18px;
+}
+
+.price-product,
+.sold-count {
+    font-size: 14px;
+}
