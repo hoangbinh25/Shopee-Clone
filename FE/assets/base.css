@@ -22,4 +22,13 @@ i {
 
 a {
     text-decoration: none;
+    color: #000;
+}
+
+a:hover {
+    color: var(--primary-color);
+}
+
+li {
+    list-style-type: none;
 }

@@ -136,8 +136,13 @@
     cursor: pointer;
 }
 
-.title-product {
-    font-size: 14px;
+.banner {
+    margin-top: 130px;
+}
+
+.separate {
+    height: 6px!important;
+    background-color: #ee4d2d;
 }
 
 .bg-product:hover {
@@ -194,7 +199,18 @@
 }
 
 .name-product {
-    font-weight: 300;
+    display: inline-block;
+    word-wrap: break-word;
+    overflow: hidden;
+    display: -webkit-box;
+    text-overflow: ellipsis;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 2;
+    color: rgba(0, 0, 0, .8);
+    height: 66px !important;
+    line-height: 1.7rem;
+    font-size: 15px;
+    font-weight: 400;
 }
 
 .price-product {
@@ -206,3 +222,27 @@
 .sold-count {
     font-size: 14px;
 }
+
+/* Footer */
+
+.title-footer {
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.list-footer > a {
+    color: #999;
+    font-size: 13px;
+}
+
+.list-footer > a:hover {
+    color: var(--primary-color);
+}
+
+.contact-footer {
+    font-size: 13px;
+}
+a:hover > .contact-footer {
+    color: var(--primary-color);
+}
+
